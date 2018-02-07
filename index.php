@@ -56,7 +56,7 @@
                 
                 
                 
-                <li class="cennik"><p class="n1">Cennik</p><form class="formu" action="wynik.php" method="post">
+                <li class="cennik"><p class="n1">Cennik</p><form class="formu" action="next.php" method="post">
                     <p class="a">ogórek 3zł/kg</p><input class="pole" type="number" name="one"/><br>
                     <p class="a">pietruszka 2zł/kg</p> <input class="pole" type="number" name="two"/><br>
                     <p class="a">por 1zł/kg</p><input class="pole" type="number" name="three"/><br>
