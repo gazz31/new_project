@@ -1,0 +1,542 @@
+* 
+{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+html 
+{
+    
+    min-height: 100%;
+    
+}
+
+body 
+{
+    
+    background: radial-gradient(yellow, orangered, yellow, red, yellow, orangered, yellow);
+    color: forestgreen;
+
+}
+
+a 
+{
+    
+    text-decoration: none;
+    color: forestgreen;
+    
+}
+
+header 
+{
+
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 2em auto 0 auto;
+    
+}
+    
+.first 
+{
+
+    width: 100%;
+    padding: .8em 0;
+    background: black;
+    text-shadow: 3px 2px #00ffff, 6px 3px green;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 30px;
+    
+}
+
+.first:hover 
+{
+    
+    background: repeating-radial-gradient( circle,
+    purple,
+    purple 10px,
+    #4b026f 10px,
+    #4b026f 20px);
+    
+}
+
+nav 
+{
+
+    border-radius: 10px;
+    margin: 2em auto;
+    background: black;
+    width: 80%;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+nav:hover
+{
+    background: repeating-linear-gradient(
+      -55deg,
+      #222,
+      #222 10px,
+      #333 10px,
+      #333 20px
+    );
+}
+
+.one 
+{
+
+    font-size: 40px;
+    text-align: center;
+    font-family: verdana;
+    padding: 30px 0;
+    text-shadow: 3px 2px #00ffff, 6px 3px green;
+    cursor: default;
+    
+    
+}
+
+
+
+
+.clock 
+{
+    
+    line-height: 55px;
+    text-align: center;
+    margin: 10px auto 0px auto;
+    color: forestgreen;
+    font-size: 1.4rem;
+    font-style: italic;
+    background: black;
+    width: 29%;
+    border: 5px solid forestgreen;
+    cursor: wait;
+
+}
+
+.clock:hover 
+{
+    
+    background: lightgreen;
+    
+}
+
+ul 
+{
+    margin-top:35px;
+    background: repeating-linear-gradient(
+  -55deg,
+  #222,
+  #222 10px,
+  #333 10px,
+  #333 20px
+);
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+ul:hover 
+{
+    
+    background: black;
+    
+}
+li 
+{
+    
+    list-style-type: none;  
+    width: 33%;
+    margin: 15px 1%;
+    text-align: center;
+    font-size: 2em;
+    border: 0;
+    border-top: 5px solid green;
+    padding: 5px 0;
+    position: relative;
+    
+}
+
+li:hover
+{
+    
+    font-size:2.2em;
+    
+}
+
+.e 
+{
+    
+    box-sizing: border-box;
+    visibility: hidden;
+     height:465px !important;
+    
+}
+
+.e:hover 
+{
+    
+    background: lightgreen !important;
+    color: red;
+    font-style: italic;
+    border: 8px solid forestgreen;
+    border-radius: 4px;
+
+}
+
+.ziele:hover, .ziele:hover .e 
+{
+    
+    border-top: 5px solid green;
+    cursor: pointer;
+    position: relative;
+    background: lightgreen;
+    visibility: visible;
+    padding: 5px;
+    transition: .5s ease-out;
+
+}
+
+.grafika_0 
+{
+    
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transform: translateY(110px);
+    width: 150px;
+    height: 90px;
+
+}
+
+.i 
+{
+    
+    transform: translateY(110px);
+    
+}
+
+.warzywa 
+{
+    
+    box-sizing: border-box;
+    
+}
+
+.warzywa-div 
+{
+    
+    height:465px !important;;
+    box-sizing: border-box;
+    visibility: hidden;
+    
+}
+
+.warzywa-div:hover 
+{
+    
+    background: lightgreen !important;
+    color: red;
+    font-style: italic;
+    border: 8px solid forestgreen;
+    border-radius: 4px;
+
+}
+
+.warzywa:hover, .warzywa:hover .warzywa-div 
+{
+    
+    border-top: 5px solid green;
+    cursor: pointer;
+    position: relative;
+    background: lightgreen;
+    visibility: visible;
+    padding: 5px;
+    transition: .5s ease-out;
+
+}
+.click:hover 
+{
+    
+    background: red;
+    color: red;
+    
+}
+
+.grafika 
+{
+    
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    height: 90px;
+
+}
+
+.zero 
+{
+    
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.cennik:hover, .cennik:hover .formu, .cennik:hover input, .cennik:hover submit 
+{
+
+    border-top: 5px solid green;
+    cursor: pointer;
+    position: relative;
+    background: lightgreen;
+    visibility: visible;
+    padding: 5px;
+    transition: .5s ease-out;
+    
+}
+
+.formu 
+{
+    
+    height:465px !important;;
+    box-sizing: border-box;
+    visibility: hidden;
+      
+}
+
+.formu:hover 
+{
+    
+    font-style: italic;
+    border: 8px solid forestgreen;
+    border-radius: 4px;
+    
+}
+
+.a:hover 
+{
+    
+    color: red;
+    background: black !important;
+    
+}
+
+input 
+{
+    
+    margin: 10px auto;
+    padding: 10px 25%;
+    
+}
+
+input:focus 
+{
+    
+    background: black !important;
+    color: forestgreen;
+    
+}
+
+input:hover 
+{
+    
+    background: linear-gradient(to left top, orangered, orange)!important;
+    
+}
+
+.suma 
+{
+    
+    margin:0; padding:0;
+    font-weight:bolder; 
+    font-style:italic;
+    font-size: 1.2rem;
+    margin: 10px 5%;
+    color: forestgreen;
+    
+}
+
+.suma:hover 
+{
+    
+    background: black !important;
+    
+}
+
+small
+{ 
+    
+    font-weight:bolder;
+    font-size:1.rem;
+    padding:5px;
+    text-align:center;
+    
+}
+
+.wynik 
+{
+    visibility: visible;
+    position: relative;
+    padding: 45px 90px;
+    background: #9bc5c5;
+
+}
+
+.para 
+{
+    
+    text-align: center;
+    line-height: 70px;
+    font-size: 3.4rem;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline black;
+
+}
+
+button 
+{
+    
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.button-1-3d
+{
+    
+    left: 40%;
+    margin: 45px 0;
+    position: relative;
+    background: #2a8e45;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    font-size: 1.4rem;
+    box-shadow: -6px 6px 0 #216d35;
+    outline: none;
+    
+}
+
+.button-1-3d:hover 
+{
+    
+    background: #2db551;
+    
+}
+
+.button-1-3d:active 
+{
+    
+    background: #216d35;
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 #216d35;
+    left: 40%;
+    margin: 45px 0;
+    
+}
+
+.button-1-3d::before 
+{
+    
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    border: solid 6px transparent;
+    border-right: solid 6px #216d35;
+    border-left-width: 0px;
+    background: none;
+    top: 0px;
+    left: -6px;
+    
+}
+
+.button-1-3d::after 
+{
+    
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    border: solid 6px transparent;
+    border-top: solid 6px #216d35;
+    border-bottom-width: 0px;
+    background: none;
+    right: 0;
+    bottom: -6px;
+    
+}
+
+.button-1-3d:active::before 
+{
+    
+    border: solid 3px transparent;
+    border-right: solid 3px #216d35;
+    border-left-width: 0px;
+    left: -3px;
+    
+}
+
+.button-1-3d:active::after 
+{
+    
+    border: solid 3px transparent;
+    border-top: solid 3px #216d35;
+    border-bottom-width: 0px;
+    bottom: -3px;
+    
+}
+
+@media only screen and (max-width:960px)
+{
+    
+    .first
+    {
+        font-size: 2.5rem;
+        letter-spacing: 10px;
+    }
+    
+    .one 
+    {
+
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+    }
+    
+    .clock 
+    {
+        padding:0 5px;
+        margin:0;
+        font-size: 1.1rem;
+        margin: 10px auto 0px auto;
+        width:42%;
+    }
+    
+    ul
+    {
+       font-size:1rem !imporant; 
+    }
+    
+    li 
+    {
+        font-size:1rem !imporant;
+        
+    }
+    li:hover
+    {
+        font-size:10px !imporant;
+    }
+}
+
