@@ -48,8 +48,8 @@
              <div id="czas"  class="clock"></div>
             <ul>
                
-                <li class="ziele"><p class="n1">Zielenina</p><a  href="http://definicja.net/definicja/Zielenina"><h4 class="e"><img class="grafika_0"  src="grafika/definicje.jpg"/><p class="i">Definicja zieleniny</p></h4></a></li>
-                <li class="warzywa"><p class="wa"><p class="n1">Warzywa</p><div class="warzywa-div"><a class="click" href="http://www.poradnikzdrowie.pl/zywienie/co-jesz/ogorek-wlasciwosci-odzywcze-jakie-witaminy-ma-ogorek_37516.html"><img class="grafika"  src="grafika/ogorek.jpg"/><p class="zero">ogórek</p></a><a class="click" href="http://rosliny.urzadzamy.pl/baza-roslin/warzywa/pietruszka-zwyczajna,17_1079/"><img class="grafika"  src="grafika/pietruszka.jpg"/><p class="zero">pietruszka</p></a><a class="click" href="http://www.poradnikzdrowie.pl/zywienie/co-jesz/por-wlasciwosci-i-wartosci-odzywcze_43347.html"><img class="grafika"  src="grafika/por.jpg"/><p class="zero">por</p></a></div></li>
+                <li class="ziele"><p class="n1">Zielenina</p><a  href="http://definicja.net/definicja/Zielenina"><h4 class="e"><img class="grafika_0"  src="graphic/definition.jpg"/><p class="i">Definicja zieleniny</p></h4></a></li>
+                <li class="warzywa"><p class="wa"><p class="n1">Warzywa</p><div class="warzywa-div"><a class="click" href="http://www.poradnikzdrowie.pl/zywienie/co-jesz/ogorek-wlasciwosci-odzywcze-jakie-witaminy-ma-ogorek_37516.html"><img class="grafika"  src="graphic/cucumber.jpg"/><p class="zero">ogórek</p></a><a class="click" href="http://rosliny.urzadzamy.pl/baza-roslin/warzywa/pietruszka-zwyczajna,17_1079/"><img class="grafika"  src="graphic/parsley.jpg"/><p class="zero">pietruszka</p></a><a class="click" href="http://www.poradnikzdrowie.pl/zywienie/co-jesz/por-wlasciwosci-i-wartosci-odzywcze_43347.html"><img class="grafika"  src="graphic/leek.jpg"/><p class="zero">por</p></a></div></li>
                 
                 
                 
